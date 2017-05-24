@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  margin-top: 3%;
+}
+.card{
+  /*width: 30rem !important;*/
+}
+.btn-group{
+  margin: 5px;
+}
+.add {
+  text-align: center;
+margin-top: 5%;
+  margin-left: 30%;
+  border: 0.80px solid lightgray;
+}
+img {
+  float: left;
+  height: 150px !important; 
+}
+.items {
+  border-bottom: 1px  solid lightgray;
+  margin: 2px;
+  padding: 10px;
+}
+.items:hover{
+  background-color: lightgrey;
+}
+.jumbotron {
+  height: 250px !important;
+}
+.btn{
+  float: right !important;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
