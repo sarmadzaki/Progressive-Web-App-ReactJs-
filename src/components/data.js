@@ -16,7 +16,7 @@ let Data = [
         photoUrl: 'http://cf.thestayathomechef.com/wp-content/uploads/2016/06/The-Most-Amazing-Chocolate-Cake-Square-1.jpg',
         details: 'Chocolate cake is made with chocolate; it can be made with other ingredients, as well. These ingredients include fudge, vanilla creme, and other sweeteners. The history of chocolate cake goes back to 1764, when Dr. James Baker discovered how to make chocolate by grinding cocoa beans between two massive circular millstones.',
          price: 20,
-         type: ''
+         type: 'cake'
 },
     {
 
@@ -24,7 +24,7 @@ let Data = [
         photoUrl: 'http://assets.marthastewart.com/styles/wmax-520-highdpi/d19/edf_jun06_ref_shake/edf_jun06_ref_shake_vert.jpg?itok=ZA7Ry4xC',
         details: 'strawberry shake',
          price: 28,
-         type: ''
+         type: 'shake'
     },
     {
 
@@ -32,7 +32,7 @@ let Data = [
         photoUrl: 'http://food.fnr.sndimg.com/content/dam/images/food/fullset/2012/4/5/2/FNM_050112-Ted-Farmers-Market-001_s4x3.jpg.rend.hgtvcom.616.462.jpeg',
         details: 'vanila',
          price: 15,
-         type: ''
+         type: 'Ice Cream'
     },
 ]
 export default Data; 

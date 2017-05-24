@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 // import logo from './logo.svg';
 import './data.js';
 import '../App.css';
 import '../bootstrap.css'
-import Data from './data'
+// import Data from './data'
 import { Link } from 'react-router'
 
 const Details = (props) => {
@@ -16,7 +16,7 @@ const Details = (props) => {
 
         <div className="App container">
 
-            <h2>Details:</h2>
+            <h2>{name2[0].name}</h2>
             <p>{name2[0].details}</p>
             <h2>How To Make</h2>
             <p>{name2[0].recipe}</p>

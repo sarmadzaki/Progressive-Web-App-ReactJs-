@@ -10,13 +10,14 @@
 }
 .add {
   text-align: center;
-margin-top: 5%;
+  margin-top: 5%;
   margin-left: 30%;
   border: 0.80px solid lightgray;
 }
 img {
   float: left;
-  height: 150px !important; 
+  height: 200px !important; 
+  width: 200px !important;
 }
 .items {
   border-bottom: 1px  solid lightgray;

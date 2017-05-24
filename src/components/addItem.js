@@ -4,9 +4,7 @@ import '../bootstrap.css'
 import { Link, browserHistory } from 'react-router'
 import Data from './data'
 class Edit extends Component {
-    constructor(props) {
-        super(props);
-    }
+ 
     addItem(e) {
         e.preventDefault();
         const resName = this.refs.name.value;
@@ -43,8 +41,8 @@ class Edit extends Component {
                     <input type="text" ref="type" className="form-control" />
                     <br />
                     <div className="btn-group" role="group">
-                    <input type="submit" className="btn btn-primary" />
-                    <Link to="/" type="button" className="btn btn-primary">Go Back</Link>
+                        <input type="submit" className="btn btn-primary" />
+                        <Link to="/" type="button" className="btn btn-primary">Go Back</Link>
                     </div>
                 </form>
             </div>

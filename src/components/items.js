@@ -6,15 +6,12 @@ import Data from './data.js'
 import { Link } from 'react-router';
 
 class Items extends Component {
-    constructor(props) {
-        super(props);
-    }
-
+  
     render() {
         return (
             <div>
                 <Link to="/Edit" className="btn btn-info">Add new</Link>
-                <h1>Foods</h1>
+                <h1>Menu</h1>
                 {Data.map((res, i) => {
                     return (
                         <div key={i} className="container items">
