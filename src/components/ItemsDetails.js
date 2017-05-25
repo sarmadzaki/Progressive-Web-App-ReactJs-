@@ -14,7 +14,7 @@ const Details = (props) => {
     })
     return (
 
-        <div className="App container">
+        <div className="App container details">
 
             <h2>{name2[0].name}</h2>
             <p>{name2[0].details}</p>

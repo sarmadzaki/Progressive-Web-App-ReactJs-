@@ -1,6 +1,20 @@
 .App {
   text-align: center;
   margin-top: 3%;
+  
+}
+h3,h1,h2,h4,label,p{
+  color: black !important;
+}
+p{
+  font-style: bold !important;
+}
+body {
+  	background: url(https://static.pexels.com/photos/57426/paprika-vegetables-colorful-food-57426.jpeg) no-repeat center center fixed;
+}
+.details{
+  margin-top: 15%;
+ 
 }
 .card{
   /*width: 30rem !important;*/

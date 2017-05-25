@@ -18,7 +18,7 @@ class Items extends Component {
                             <img src={res.photoUrl} className="img-thumbnail" alt="sa" height="100" />
                             <h3>{res.name}</h3>
                             <p><strong>PRICE: </strong> <b>{res.price}$</b></p>
-                            <p> <small>Type: {res.type}</small> </p>
+                            <p> <strong>Type: {res.type}</strong> </p>
                             <Link className="btn btn-outline-success" to={`/Details/${res.name}`}>Details</Link>
                         </div>
                     )
