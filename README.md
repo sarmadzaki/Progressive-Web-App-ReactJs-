@@ -1,8 +1,8 @@
-##Progressive-Web-App
+Web-App
 =====================
 [Live Demo](https://sam-pwa.surge.sh/)
 
-###Installation
+Installation
 ===================
 1-clone this Repository or Download.
 =============
